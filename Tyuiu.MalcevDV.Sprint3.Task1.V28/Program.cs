@@ -1,4 +1,4 @@
-﻿using Tyuiu.MalcevDV.Sprint3.Task0.V13.Lib;
+﻿using Tyuiu.MalcevDV.Sprint3.Task1.V28.Lib;
 void PrintCenteredLine(string text, int totalWidth)
 {
     var padding = totalWidth - text.Length - 2; // -2 для звездочек по бокам
@@ -10,8 +10,8 @@ var width = 75;
 Console.WriteLine(new string('*', width));
 PrintCenteredLine("Спринт #3", width);
 PrintCenteredLine("Тема: Создание решения по спринту", width);
-PrintCenteredLine("Задание #0", width);
-PrintCenteredLine("Вариант #13", width);
+PrintCenteredLine("Задание #1", width);
+PrintCenteredLine("Вариант #28", width);
 PrintCenteredLine("Выполнил: Мальцев Данил Вячеславович | РППБ-25-1", width);
 Console.WriteLine(new string('*', width));
 PrintCenteredLine("УСЛОВИЕ:", width);
@@ -22,7 +22,7 @@ Console.WriteLine("Введите :", width);
 DataService ds = new DataService();
 double value = 0.5;
 int startValue = 1;
-int stopValue = 20;
+int stopValue = 18;
 Console.WriteLine("Переменная X = " + value);
 Console.WriteLine("Старт шага = " + startValue);
 Console.WriteLine("Конец шага = " + stopValue);
